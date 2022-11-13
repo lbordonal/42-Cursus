@@ -22,7 +22,7 @@ This repository contains code developed at 42 Porto Cursus, if you are looking f
 </br>
 <div align="center">
 
-| Project | Status | Language | Score | Last Commit |
+| Project | Status | Language | Score | Activity |
 | :---: | :---: | :---: | :---: | :---: |
 | [Libft](https://github.com/lbordonal/00-Libft) | <img src="https://img.shields.io/badge/status-done-success" /> |<img src="https://img.shields.io/github/languages/top/lbordonal/00-Libft" /> | <img src="https://img.shields.io/badge/score-125%20%2F%20100-success" /> | <img src="https://img.shields.io/github/last-commit/lbordonal/00-Libft" /> |
 | [get_next_line](https://github.com/lbordonal/01-get_next_line) | <img src="https://img.shields.io/badge/status-in%20progress-yellow" /> |<img src="https://img.shields.io/github/languages/top/lbordonal/01-get_next_line" /> | <img src="https://img.shields.io/badge/score-not%20submitted-red" /> | <img src="https://img.shields.io/github/last-commit/lbordonal/01-get_next_line" /> |
