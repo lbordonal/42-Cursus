@@ -26,11 +26,11 @@ This repository contains code developed at 42 Porto Cursus, if you are looking f
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | [Libft](https://github.com/lbordonal/00-Libft) | 00 | <img src="https://img.shields.io/badge/status-done-success" /> |<img src="https://img.shields.io/github/languages/top/lbordonal/00-Libft" /> | <img src="https://img.shields.io/badge/score-125%20%2F%20100-success" /> | <img src="https://img.shields.io/github/last-commit/lbordonal/00-Libft" /> |
 | [get_next_line](https://github.com/lbordonal/01-get_next_line) | 01 | <img src="https://img.shields.io/badge/status-done-success" /> |<img src="https://img.shields.io/github/languages/top/lbordonal/01-get_next_line" /> | <img src="https://img.shields.io/badge/score-125%20%2F%20100-success" /> | <img src="https://img.shields.io/github/last-commit/lbordonal/01-get_next_line" /> |
-| [ft_printf](https://github.com/lbordonal/01-ft_printf) | 01 | <img src="https://img.shields.io/badge/status-evaluation-orange" /> | <img src="https://img.shields.io/github/languages/top/lbordonal/01-ft_printf" /> | <img src="https://img.shields.io/badge/score-not%20submitted-red" /> | <img src="https://img.shields.io/github/last-commit/lbordonal/01-ft_printf" /> |
-| [Born2beroot](https://github.com/lbordonal/01-Born2beroot) | 01 | <img src="https://img.shields.io/badge/status-in%20progress-yellow" /> | <img src="https://img.shields.io/github/languages/top/lbordonal/01-Born2beroot" /> | <img src="https://img.shields.io/badge/score-not%20submitted-red" /> | <img src="https://img.shields.io/github/last-commit/lbordonal/01-Born2beroot" /> |
+| [ft_printf](https://github.com/lbordonal/01-ft_printf) | 01 | <img src="https://img.shields.io/badge/status-done-success" /> | <img src="https://img.shields.io/github/languages/top/lbordonal/01-ft_printf" /> | <img src="https://img.shields.io/badge/score-100%20%2F%20100-success" /> | <img src="https://img.shields.io/github/last-commit/lbordonal/01-ft_printf" /> |
+| [Born2beroot](https://github.com/lbordonal/01-Born2beroot) | 01 | <img src="https://img.shields.io/badge/status-evaluation-orange" /> | <img src="https://img.shields.io/github/languages/top/lbordonal/01-Born2beroot" /> | <img src="https://img.shields.io/badge/score-not%20submitted-red" /> | <img src="https://img.shields.io/github/last-commit/lbordonal/01-Born2beroot" /> |
 
 </div>
 
 
 
-[comment]: <> ("https://img.shields.io/badge/status-in%20progress-yellow" / "https://img.shields.io/badge/status-registered-blue" / "https://img.shields.io/badge/status-evaluation-orange")
+[comment]: <> ("https://img.shields.io/badge/status-in%20progress-yellow" / "https://img.shields.io/badge/status-registered-blue" / "https://img.shields.io/badge/status-evaluation-orange" / <img src="https://img.shields.io/badge/status-done-success" /> / <img src="https://img.shields.io/badge/status-evaluation-orange" /> )
