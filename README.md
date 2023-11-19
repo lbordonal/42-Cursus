@@ -1,7 +1,6 @@
-
-<h1 align="center">
-	42 Cursus
-</h1>
+<p align="center">
+  <img src="https://github.com/lbordonal/lbordonal/blob/main/.titles/42-Cursus.png">
+</p>
 
 <p align="center">
 
