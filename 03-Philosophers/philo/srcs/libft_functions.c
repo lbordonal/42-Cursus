@@ -1,42 +1,39 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   forks.c                                            :+:      :+:    :+:   */
+/*   libft_functions.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: lbordona <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/12/05 11:49:15 by lbordona          #+#    #+#             */
-/*   Updated: 2024/01/08 19:30:12 by lbordona         ###   ########.fr       */
+/*   Created: 2024/01/17 22:26:55 by lbordona          #+#    #+#             */
+/*   Updated: 2024/01/17 22:28:12 by lbordona         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "philosophers.h"
+#include "../include/philosophers.h"
 
-int	create_forks(t_main *main)
+int	ft_isdigit(int c)
 {
-	int	i;
-
-	i = 0;
-	main->forks = malloc(sizeof(pthread_mutex_t) * main->input.num_philo + 1);
-	if (main->forks == NULL)
+	if (c >= 48 && c <= 57)
+		return (1);
+	else
 		return (0);
-	while (i < main->input.num_philo)
-	{
-		if (pthread_mutex_init(&main->forks[i], NULL) != 0)
-			return (0);
-		i++;
-	}
-	return (1);
 }
 
-void	unlock_forks(t_main *main)
+int	ft_atoi(char *str)
 {
 	int	i;
+	int	result;
 
 	i = 0;
-	while (i < main->input.num_philo)
+	result = 0;
+	while (str[i] >= '0' && str[i] <= '9')
 	{
-		pthread_mutex_unlock(&main->forks[i]);
+		result = result * 10 + str[i] - '0';
 		i++;
 	}
+	if (result < 0 || ((str[i] < '0' || str[i] > '9') && str[i] != '\0')
+		|| result > INT_MAX)
+		return (0);
+	return (result);
 }

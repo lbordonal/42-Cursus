@@ -5,12 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: lbordona <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/12/05 15:39:51 by lbordona          #+#    #+#             */
-/*   Updated: 2024/01/02 14:13:02 by lbordona         ###   ########.fr       */
+/*   Created: 2024/01/17 23:27:53 by lbordona          #+#    #+#             */
+/*   Updated: 2024/01/17 23:28:25 by lbordona         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "philosophers.h"
+#include "../include/philosophers.h"
 
 long long	get_time(void)
 {

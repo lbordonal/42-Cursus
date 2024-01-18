@@ -5,26 +5,25 @@
 #                                                     +:+ +:+         +:+      #
 #    By: lbordona <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2023/06/27 15:34:03 by lbordona          #+#    #+#              #
-#    Updated: 2023/12/04 20:42:38 by lbordona         ###   ########.fr        #
+#    Created: 2024/01/17 21:21:31 by lbordona          #+#    #+#              #
+#    Updated: 2024/01/18 01:59:54 by lbordona         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 CC = cc -g
-CFLAGS = -Wall -Wextra -Werror
+CFLAGS = -Wall -Wextra -Werror -pthread -fsanitize=address
 RM = rm -rf
 
 NAME = philo
 
-SRCS = main.c \
-	philo.c \
-	threads.c \
-	time.c \
-	free.c \
-	libft_functions.c \
-	actions.c \
-	routine.c \
-	forks.c
+SRCS = srcs/main.c \
+	srcs/libft_functions.c \
+	srcs/starts.c \
+	srcs/threads.c \
+	srcs/time.c \
+	srcs/routine.c \
+	srcs/actions.c \
+	srcs/checker.c
 
 OBJS = $(SRCS:%.c=%.o)
 
